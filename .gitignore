@@ -86,9 +86,8 @@ jspm_packages/
 # Nuxt.js build / generate output
 .nuxt
 
-# Gatsby files
+# Gatsby files (not applicable here, keep cache only)
 .cache/
-public
 
 # Storybook build outputs
 .out

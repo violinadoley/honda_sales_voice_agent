@@ -84,7 +84,7 @@ function UI() {
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
             <img 
-              src="/ibmlogo.png" 
+              src={`${import.meta.env.BASE_URL}ibmlogo.png`} 
               alt="IBM" 
               style={{ 
                 height: 32, 
