@@ -23,6 +23,8 @@ jobs:
 
       - name: Build project
         run: npm run build
+        env:
+          VITE_ELEVENLABS_AGENT_ID: ${{ secrets.VITE_ELEVENLABS_AGENT_ID }}
 
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
